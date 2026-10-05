@@ -1,1 +1,46 @@
-body.dark { background: #111; color: #fff; }
+body {
+    font-family: Arial, sans-serif;
+    background: #faf5ff;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body.dark {
+    background: #1a1a2e;
+    color: white;
+}
+
+h1, h2 {
+    color: #8e44ad;
+}
+
+body.dark h1, body.dark h2 {
+    color: #d7a8ff;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background: #8e44ad;
+    color: white;
+    cursor: pointer;
+}
+
+.jobtitle {
+    background: #e8daef;
+    color: #333;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.details {
+    display: none;
+}
+
+.skill {
+    padding: 4px;
+}
